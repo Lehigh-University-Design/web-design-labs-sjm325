@@ -13,6 +13,30 @@ body {
     font-size: 16px;
 }
 
+main{
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-head {
+    margin-left: auto;
+    order: 2;
+}
+
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+
+
 h1 {
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
